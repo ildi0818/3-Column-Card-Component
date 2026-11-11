@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 300px;
+    min-height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container > div {
+    padding: 2.3rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img {
+    width: 21%;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders", "Lexend Deca", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.container > div:first-child {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.container > div:nth-child(2) {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.container > div:last-child {
+    background-color: hsl(179, 100%, 13%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: .9rem;
+    line-height: 1.5rem;
+    font-family: "Lexend Deca", "Big Shoulders", sans-serif;
+}
+
+button {
+    font-family: "Lexend Deca",sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    width: 9rem;
+    padding: .7rem 1.6rem;
+    border-radius: 20px;
+    border: none;
+    margin-top: 1.2rem;
+}
+
+.container > div:first-child button {
+    color: hsl(31, 77%, 52%);
+}
+
+.container > div:nth-child(2) button {
+    color: hsl(184, 100%, 22%);
+}
+
+.container > div:last-child button {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.container > div:first-child button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.container > div:nth-child(2) button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.container > div:last-child button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
